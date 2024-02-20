@@ -58,7 +58,7 @@ To run the hash table implementation, execute the following command:
 ./hash
 ```
 
-##valgrind
+## valgrind
 valgrind is a powerful tool to use to ensure there are no memory leaks within the code.
 To run the linked list implementation with valgrind, execute the following command:
 ``` bash
@@ -69,7 +69,7 @@ To run the hash table implementation with valgrind, execute the following comman
 valgrind ./hash
 ```
 
-##time exection 
+## time exection 
 To run the linked list implementation taken time:8.693054 seconds
 To run the hash tabel implementation taken time:0.470121 seconds
 
