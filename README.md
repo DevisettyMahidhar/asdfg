@@ -29,13 +29,9 @@ This project implements a symbol table using a combination of linked list and ha
 - If the provided key is present in the linked list, deletes the node and returns the value it holds; otherwise, returns null.
 
 ### SymTable_replace
-- If the key is present in the linked list, replaces the old value with the new value and returns the old value; otherwise, returns null.
+- If the key is present in the linked list, replaces the old value with the new value and returns the old value; otherwise, returns null
 
-## How to Use
-
-1. Include the necessary header files in your project.
-2. Implement the functions according to your requirements.
-3. Utilize the provided functions to manage and manipulate the symbol table.
+We have chosen to implement the symbol table using a hash table due to its superior efficiency over a linked list. By employing a hash function, we generate keys that determine the index where nodes are stored within the table. This strategy streamlines access to elements as we can directly locate items by their respective indices, resulting in significant time savings.
 
 
 
