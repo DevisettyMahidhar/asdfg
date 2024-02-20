@@ -1,6 +1,7 @@
 # Implementation of Symtable using Linked List and Hash Table
 
-This project implements a symbol table using a combination of linked list and hash table data structures.
+This project implements a symbol table using different approaches like linked list and hash table data structures.
+
 
 ## Functions
 
@@ -50,10 +51,27 @@ make
 ```
 To run the linked list implementation, execute the following command:
 ``` bash
-./list
+./link
 ```
 To run the hash table implementation, execute the following command:
 ```bash
 ./hash
 ```
+
+##valgrind
+valgrind is a powerful tool to use to ensure there are no memory leaks within the code.
+To run the linked list implementation with valgrind, execute the following command:
+``` bash
+valgrind ./link
+```
+To run the hash table implementation with valgrind, execute the following command:
+```bash
+valgrind ./hash
+```
+
+##time exection 
+To run the linked list implementation taken time:8.693054 seconds
+To run the hash tabel implementation taken time:0.470121 seconds
+
+
 
